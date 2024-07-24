@@ -1,0 +1,61 @@
+name: gde_namaz
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0-22.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  auto_route: ^8.2.0
+  dio: ^5.4.3
+  talker: ^4.2.4
+  talker_dio_logger: ^4.2.4
+  retrofit: ^4.1.0
+  dartz: ^0.10.1
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  json_annotation: ^4.9.0
+  shared_preferences: ^2.2.3
+  mobile_device_identifier: ^0.0.2
+  flutter_svg: ^2.0.10
+  hexcolor: ^3.0.1
+  intl: ^0.19.0
+  flutter_localizations:
+    sdk: flutter
+  blur: ^4.0.0
+  oktoast: ^3.4.0
+  easy_localization: ^3.0.7
+  flutter_time_picker_spinner: ^2.0.0
+  sliding_up_panel: ^2.0.0
+  url_launcher: ^6.3.0
+  share_plus: ^9.0.0
+
+  google_maps_flutter: ^2.7.0
+  google_geocoding_api: ^1.5.2
+  geolocator: ^12.0.0
+  win32: ^5.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  freezed: ^2.5.3
+  build_runner: ^2.4.11
+  auto_route_generator: ^8.0.0
+  retrofit_generator: '^8.1.0'
+  json_serializable: ^6.8.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/translations/
